@@ -20,6 +20,9 @@ td i {
     padding: 3px 4px;
     border-radius: 3px;
 }
+#todo li {
+    font-size: 12px;
+}
 /* tr td:nth-child(2) {
     font-size: 12px;
 } */
