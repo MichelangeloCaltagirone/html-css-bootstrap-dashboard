@@ -2,3 +2,33 @@
 #logo {
     height: 60px;
 }
+.hidden {
+    display: none;
+}
+.left-col {
+    width: 60%;
+}
+th {
+    border-bottom: 0;
+}
+tr td:first-child {
+    font-size: 10px;
+}
+td i {
+    color: gray;
+    border: 1px solid gray;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+/* tr td:nth-child(2) {
+    font-size: 12px;
+} */
+
+@media screen and (min-width: 768px) {
+    .left-col {
+        width: 55%;
+    }
+    .hidden {
+        display: inline;
+    }
+}
