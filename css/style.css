@@ -2,9 +2,6 @@
 #logo {
     height: 60px;
 }
-.hidden {
-    display: none;
-}
 .left-col {
     width: 60%;
 }
@@ -12,7 +9,7 @@ th {
     border-bottom: 0;
 }
 tr td:first-child {
-    font-size: 10px;
+    font-size: 12px;
 }
 td i {
     color: gray;
@@ -23,6 +20,9 @@ td i {
 #todo li {
     font-size: 12px;
 }
+#accordioFlushExample button {
+    font-size: 14px;
+}
 /* tr td:nth-child(2) {
     font-size: 12px;
 } */
@@ -31,7 +31,10 @@ td i {
     .left-col {
         width: 55%;
     }
-    .hidden {
-        display: inline;
+}
+@media screen and (min-width: 1200px) {
+    .container-cst {
+        max-width: 1050px;
     }
+
 }
