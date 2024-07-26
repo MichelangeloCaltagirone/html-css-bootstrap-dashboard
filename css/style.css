@@ -2,6 +2,8 @@
 #logo {
     height: 60px;
 }
+
+/* Table style */
 .left-col {
     width: 60%;
 }
@@ -17,16 +19,18 @@ td i {
     padding: 3px 4px;
     border-radius: 3px;
 }
+
+/* TODO style */
 #todo li {
     font-size: 12px;
 }
+
+/* Accordion style */
 #accordioFlushExample button {
     font-size: 14px;
 }
-/* tr td:nth-child(2) {
-    font-size: 12px;
-} */
 
+/* Media query */
 @media screen and (min-width: 768px) {
     .left-col {
         width: 55%;
